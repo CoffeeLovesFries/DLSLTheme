@@ -1,0 +1,44 @@
+{
+  "name": "dlsl-theme",
+  "displayName": "De La Salle Lipa Theme",
+  "description": "A theme built to capture the lasallian experience~ ✨",
+  "version": "4.2.0",
+  "publisher": "CoffeeLovesFries",
+  "license": "cat.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CoffeeLovesFries/DLSLTheme"
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Light Theme",
+    "DLSL",
+    "La Salle",
+    "Lasalle",
+	  "DLSU"
+  ],
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "galleryBanner": {
+    "color": "#061526",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "dlsl-logo.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "De La Salle Lipa (Light Theme)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dlsl-light-theme.json"
+      }
+    ]
+  }
+}
